@@ -8,3 +8,28 @@
     user-select: none;
 
 }
+.social-items{
+    padding: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    font-size: var(--size-xs);
+    font-weight: 400;
+    color: var(--clr-slate600);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    user-select: none;
+    background-color: var(--clr-dark);
+
+}
+
+i{
+    font-size: 30px;
+    padding: 15px;
+}
+a{
+    color: unset;
+}
